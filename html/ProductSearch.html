@@ -1,0 +1,25 @@
+<!DOCTYPE HTML> 
+<html>
+	<body>
+		<form id="prodSearchForm" action="ProductSearchDB.php" method="get" autocomplete="off">
+			Enter the type of product (try Notebooks): <input type="text" id="subcategory_name" name="subcategory_name"><br><br>
+			<input type="button" onclick="validate()" value="Search">
+		</form>
+		<script> 
+			function validate() {
+				if(document.getElementById("subcategory_name").value == "")
+				{
+					alert("Please enter the value");
+				} 
+				else 
+				{
+					document.getElementById("prodSearchForm").submit();
+				}
+			}
+		</script>
+		
+		<br><br>
+		<a href="index.html">Back</a>
+		
+	</body>
+</html>

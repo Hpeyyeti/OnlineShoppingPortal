@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+    <database>
+        <std dbHost="localhost" dbPort="3306" dbUser="root" dbPass="" dbName="cmpe226operational"></std>
+        <stdAnalytical dbHost="localhost" dbPort="3306" dbUser="root" dbPass="" dbName="cmpe226a6"></stdAnalytical>
+        <remote dbHost="db4free.net" dbPort="3306" dbUser="teamgoat" dbPass="teamgoat" dbName="cmpe226a6"></remote>
+    </database>
+</config>
